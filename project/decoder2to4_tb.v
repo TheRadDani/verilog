@@ -11,7 +11,9 @@ initial begin
     A=2'b00;#20;
     A=2'b00;#20;
     A=2'b00;#20;
-    A=2'b00;#20;
+    A=2'b01;#20;
+    A=2'b10;#20;
+    A=2'b11;#20;
     $display("done");
 end
 endmodule
