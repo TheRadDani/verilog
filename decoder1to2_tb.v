@@ -4,7 +4,7 @@ module decoder1to2_tb;
 
 reg A;
 wire [1:0] D;
-decoder1to2_tb UUT(A,D);
+decoder1to2 UUT(A,D);
 initial begin
     $dumpfile("decoder1to2_tb.vcd");
     $dumpvars(0,decoder1to2_tb);
